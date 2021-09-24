@@ -23,4 +23,4 @@ image                   - VARCHAR(255)        - NULL
 warranty                - CHAR(7)             - NOT_NULL
 for_novicedriver        - BOOL [TINYINT(1)]   - NOT_NULL
 cost                    - FLOAT(6,3)          - NOT_NULL
-
+accessories             - TEXT                - NOT_NULL
