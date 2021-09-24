@@ -2,27 +2,27 @@ ENTITY CAR
 
 TABLE NAME : CARS
 
-id - 
-state - 
-brand - 
-model - 
-year - 
-km_traveled -
-bodywork -
-car_seats -
-car_doors - 
+id -                    INT - PRIMARY_KEY (NOT_NULL, UNIQUE, AUTO_INCREMENT)
+state -                 
+brand -                 VARCHAR(20)
+model -                 VARCHAR(10)
+year -                  YEAR
+km_traveled -           FLOAT(6,3)
+bodywork -              VARCHAR(20)
+car_seats -             TINYINT
+car_doors -             TINYINT
 trunk -  
-gearbox - 
-gear -
+gearbox -               
+gear -                  TINYINT   
 horsepower - 
-displacement -
-engine -
-class -
+engine_displacement -    
+engine_power_supply -    
+class -                 
 weight - 
 size - 
-color - 
-image - 
-warranty -
-for_novicedriver -
-cost - 
+color -                 VARCHAR(20)
+image -                 VARCHAR(255)
+warranty -              
+for_novicedriver -      BOOL [TINYINT(1)]
+cost -                  FLOAT(6,3)
 
