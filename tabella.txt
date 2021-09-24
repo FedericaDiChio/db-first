@@ -16,6 +16,7 @@ gear                    - TINYINT             - NULL - DEFAULT("5 MARCE")
 horsepower              - SMALLINT            - NOT_NULL   
 engine_displacement     - FLOAT(4,3)          - NULL   
 engine_power_supply     - VARCHART(10)        - NOT_NULL  
+accessories             - TEXT                - NOT_NULL
 class                   - CHAR(5)             - NOT_NULL  
 weight                  - FLOAT(4,3)          - NULL    
 color                   - VARCHAR(20)         - NOT_NULL
@@ -23,4 +24,3 @@ image                   - VARCHAR(255)        - NULL
 warranty                - CHAR(7)             - NOT_NULL
 for_novicedriver        - BOOL [TINYINT(1)]   - NOT_NULL
 cost                    - FLOAT(6,3)          - NOT_NULL
-accessories             - TEXT                - NOT_NULL
