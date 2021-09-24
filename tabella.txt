@@ -1,0 +1,28 @@
+ENTITY CAR
+
+TABLE NAME : CARS
+
+id - 
+state - 
+brand - 
+model - 
+year - 
+km_traveled -
+bodywork -
+car_seats -
+car_doors - 
+trunk -  
+gearbox - 
+gear -
+horsepower - 
+displacement -
+engine -
+class -
+weight - 
+size - 
+color - 
+image - 
+warranty -
+for_novicedriver -
+cost - 
+
